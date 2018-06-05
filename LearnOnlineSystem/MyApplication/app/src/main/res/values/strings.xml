@@ -1,0 +1,56 @@
+<resources>
+    <!-- 应用程序名字 字符串-->
+    <string name="app_name">在线学习</string>
+
+    <!-- 学习  界面定义字符串-->
+    <string name="xuexi">学习</string>
+    <string name="jindu">进度</string>
+    <string name="kemujianjie">科目简介</string>
+    <string name="kemumulu">科目目录</string>
+    <string name="jiangshi">讲师</string>
+    <string name="kechengjianjie">课程简介</string>
+
+
+    <!-- 测试  界面定义字符串-->
+    <string name="zaixianceshi">在线测试</string>
+    <string name="monitikaojuan">模拟题考卷</string>
+
+    <!-- 我的  界面定义字符串-->
+    <string name="wode">我的</string>
+    <string name="cuotiguanli">错题本</string>
+    <string name="tongjifenxi">统计分析</string>
+    <string name="xuexijihua">学习计划</string>
+    <string name="xuexitixing">学习提醒</string>
+    <string name="zhidingjihua">制定计划</string>
+    <string name="queding">确定</string>
+    <string name="tongzhi">通知</string>
+
+    <string name="cuoti">错题</string>
+    <string name="cuotifenlei">错题分类</string>
+
+    <!-- 登录字符串定义 -->
+    <string name="prompt_username">输入用户名</string>
+    <string name="prompt_password">输入用户密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_null_username">用户名不能为空</string>
+    <string name="error_short_password">长度不能少于6</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_login">用户登录</string>
+    <string name="button_string_login">确认</string>
+    <string name="title_activity_tongzhi">通知</string>
+    <string name="title_activity_xuexijihua">学习计划</string>
+    <string name="title_activity_xuexitixing">学习提醒</string>
+    <string name="title_activity_register">注册账户</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+</resources>

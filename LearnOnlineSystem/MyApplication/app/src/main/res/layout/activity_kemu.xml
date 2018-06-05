@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 标题栏-->
+    <include layout="@layout/titlebar_xuexi_layout" />
+
+    <!-- 科目内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <!--科目简介-->
+            <TextView
+                android:id="@+id/button_jianjie_xuexi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/kemujianjie"
+                android:textSize="18dp" />
+
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:background="@color/hui" />
+
+            <TextView
+                android:id="@+id/button_mulu_xuexi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/kemumulu"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@color/hui" />
+
+        <!--科目简介内容界面-->
+        <include
+            android:id="@+id/content_kemujianjie_xuexi"
+            layout="@layout/content_kemujianjie_layout" />
+
+
+        <!--科目目录内容界面-->
+        <include
+            android:id="@+id/content_kemumulu_xuexi"
+            layout="@layout/content_kemumulu_layout" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

@@ -1,0 +1,11 @@
+title:语文考试
+question:牛顿的三大定律是哪些?（）。
+惯性
+F=-F
+F=ma
+question:阿基米德的公式有哪些？（）。
+F=G=mg=pgv
+F<G
+
+
+

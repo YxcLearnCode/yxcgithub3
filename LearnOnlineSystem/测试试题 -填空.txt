@@ -1,0 +1,10 @@
+title:数学考试
+question:阿基米德的杠杠原理的公式是（）。
+answer:F1×L1=F2×L2
+question:牛顿第三定律是（）。
+answer:F=-F
+question:牛顿第一定律是什么（）。
+answer:惯性
+question:牛顿第二定律是（）。
+answer:F=ma
+

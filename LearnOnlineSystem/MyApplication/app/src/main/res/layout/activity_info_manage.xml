@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hucx.myapplication.InfoManageActivity">
+
+
+
+    <!--学习内容 -->
+    <include
+        android:id="@+id/content_xuexi_info"
+        layout="@layout/content_tuijian_layout"
+        android:visibility="gone" />
+    <!-- 我的 内容 -->
+    <include
+        android:id="@+id/content_wode_info"
+        layout="@layout/content_wode_layout"
+        android:visibility="visible" />
+    <!-- 在线测试内容 -->
+    <include
+        android:id="@+id/content_zaixianceshi_info"
+        layout="@layout/content_study_layout"
+        android:visibility="gone" />
+
+    <!--导航框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#F7F7F7"
+        android:orientation="vertical">
+
+        <!-- 线-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/hui"></View>
+
+        <!-- 导航按钮栏-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:orientation="horizontal">
+
+            <!-- 导航按钮-->
+            <LinearLayout
+                android:id="@+id/button_xuexi_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!--导航按钮的图标-->
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/xuexi" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="11dip"
+                    android:text="推荐" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_study_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/ceshi" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="11dip"
+                    android:gravity="center"
+                    android:text="学习" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_wode_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@mipmap/wo" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textSize="11dip"
+                    android:text="@string/wode" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

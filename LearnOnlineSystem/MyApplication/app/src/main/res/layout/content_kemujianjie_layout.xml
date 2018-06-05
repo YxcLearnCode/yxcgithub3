@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <!--课程图片-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/imageView_courseimage_kemu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@mipmap/course" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/hui" />
+
+    <!-- 显示讲师信息 -->
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/jiangshi"
+            android:textSize="22dp" />
+
+        <!-- 讲师名字-->
+        <TextView
+            android:id="@+id/textView_jiaoshimingzi_kemujianjie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="张三"
+            android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+    <!-- 线 -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/hui"/>
+
+
+    <!-- 课程简介的内容 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/kechengjianjie"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/textView_neirong_kemujianjie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="课程.....21sadffffffffffffffffffffffffffffffffffffffffffffffffffffff212"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,32 @@
+.report-file {	        
+            position: relative;
+            left:45%;
+            width: 120px;
+            height: 28px;
+            overflow: hidden;
+            border: 1px solid #428bca;
+            background: none repeat scroll 0 0 #428bca;
+            color: #fff;
+            cursor: pointer;
+            text-align: center;
+            margin-top:20px;
+            margin-bottom:20px;
+    }
+    .report-file span {
+            cursor: pointer;
+            line-height: 28px;
+    }
+    .file-prew {
+            position: absolute;
+            top: 0;
+            left:0;
+            width: 120px;
+            height: 30px;
+            font-size: 100px; 
+            opacity: 0; 
+            filter: alpha(opacity=0);
+            cursor: pointer;
+    }
+    .color{
+    color:#ffff0000;
+    }
